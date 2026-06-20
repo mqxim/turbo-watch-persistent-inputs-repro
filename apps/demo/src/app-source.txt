@@ -1,0 +1,1 @@
+This file simulates application source handled by the dev server.

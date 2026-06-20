@@ -1,0 +1,17 @@
+{
+  "name": "turbo-watch-persistent-inputs-repro",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.8.0",
+  "scripts": {
+    "dev": "turbo watch dev --filter=demo",
+    "dry": "turbo run dev --filter=demo --dry=json",
+    "repro": "node scripts/repro.mjs",
+    "change:app": "node scripts/change-app.mjs",
+    "change:framework": "node scripts/change-framework.mjs"
+  },
+  "devDependencies": {
+    "turbo": "^2.9.18"
+  }
+}
+
